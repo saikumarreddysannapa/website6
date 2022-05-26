@@ -1,0 +1,270 @@
+.main{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url('./images/background1.webp');
+}
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.title h1{
+    width: 110px;
+    color: red;
+    cursor: pointer;
+}
+h1{
+    cursor: pointer;
+}
+.title form{
+    width: 160px;
+    text-align: center;
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:green;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover{
+    color: #ff5ea2;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.row .col img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 3vmin;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+p{
+    color: rgb(163, 129, 87);
+    text-align: center;
+    margin-bottom: 10px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.dec{
+    font-size: 15px;
+    color: rgb(163, 137, 106);
+}
+
+.spe{
+    font-size: 15px;
+    color: green;
+}
+.but{
+    padding: 10px 20px;
+    color: green;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.row .col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col-1 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row .col-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col-2 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row .col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col-3 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.row-1 .col-4 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.butt{
+    padding: 10px 20px;
+    color: green;
+    font-size: 15px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 60px;
+}
+.row-1 .col-5 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-1 .col-6 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-1 .col-7 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-2{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.row-2 .col-8 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-2 .col-9 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-2 .col-10 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-2 .col-11 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-3{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.row-3 .col-12 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-3 .col-13 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-3 .col-14 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.row-3 .col-15 img{
+    width: 250px;
+    height: 150px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #0e1a36;
+    margin-top: 40px;
+    line-height: 2.0;
+}
+.row-4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.extra{
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+    cursor: pointer;
+    color: red;
+}
+.style{
+    color: white;
+    text-decoration: none;
+}
+.head{
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.footer-col{
+    width: 20%;
+    padding-left: 65px;
+}
+
+.extra{
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+    cursor: pointer;
+    color: red;
+}
+.style{
+    color: white;
+    text-decoration: none;
+}
+.head{
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+}
